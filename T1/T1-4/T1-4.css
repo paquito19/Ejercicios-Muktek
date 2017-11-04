@@ -1,0 +1,39 @@
+.flex-contenedor {
+  display: flex;
+}
+.menu-principal {
+  border-bottom: 0.08rem solid grey;
+  padding-bottom: 1rem;
+}
+
+.seccion-lateral{
+  margin-right: 1.5rem;
+
+}
+.seccion-lateral li{
+  list-style: none;
+}
+.seccion-lateral ul {
+  padding-left: 0;
+}
+.idioma-seleccionado::before {
+  content: ">"
+}
+
+.imagen-lateral {
+  float: right;
+  margin: 15px;
+}
+.tabla-de-contenido {
+  border: 1px solid #7A7F6F;
+  display: inline-block;
+  padding: 9px;
+  padding-right: 18px;
+}
+a {
+  text-decoration: none;
+  color: #2884BF;
+}
+p {
+  text-align: justify;
+}
