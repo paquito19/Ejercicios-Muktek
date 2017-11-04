@@ -1,0 +1,19 @@
+body {
+  background-color: lightyellow;
+}
+h1 {
+  color: darkgreen;
+  font-family: Tahoma, sans-serif;
+}
+h2 {
+  color: darkblue;
+  font-family: Tahoma, sans-serif;
+}
+p{
+  color: darkred;
+  font-family: Verdana;
+}
+li {
+  color: purple;
+  font-family: Lucida Sans;
+}

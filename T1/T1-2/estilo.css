@@ -1,0 +1,25 @@
+.encabezado {
+  display: block;
+}
+.imagen {
+  float: right;
+    width: 50%;
+    margin: 18px;
+}
+.imagen img {
+  width: 100%;
+}
+ul  {
+  display: inline-block;
+
+}
+a {
+  text-decoration: none;
+}
+.cajitas {
+  text-align: justify;
+}
+.imagen p {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,22 @@
+div {
+  border: 0.25rem solid darkred;
+  background-color: lightyellow;
+}
+h1, h3, h5 {
+  border: 0.25rem solid darkblue;
+  background-color: lightblue;
+  font-family: Tahoma, sans-serif;
+  color: darkblue;
+}
+h2, h4, h6 {
+  border: 0.25rem solid darkgreen;
+  background-color: lightgreen;
+  font-family: Tahoma, sans-serif;
+  color: darkred;
+}
+h1, h2, h3 {
+  padding: 1.10rem;
+}
+h4, h5, h6 {
+  margin: 1rem;
+}

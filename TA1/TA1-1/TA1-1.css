@@ -1,0 +1,33 @@
+body {
+  margin: 2.5rem;
+  background-image: url(assets/bg.jpg);
+}
+p {
+  text-align: justify;
+  font-family: Tahoma, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #2980b9;
+  font-family: Tahoma, sans-serif;
+}
+h1 {
+  color: #c0392b;
+  font-family: `Georgia,  Times, serif`;
+}
+h2{
+  color: #2c3e50;
+  border-bottom: 0.05rem solid #3498db;
+  font-family: Tahoma, sans-serif;
+}
+.imagen-lateral {
+  float: right;
+  margin: 2rem;
+  margin-right: 0;
+}
+.tabla-de-contenido {
+  border: 1px solid #7A7F6F;
+  display: inline-block;
+  padding: 9px;
+  padding-right: 18px;
+}
