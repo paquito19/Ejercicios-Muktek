@@ -2,3 +2,30 @@ body {
   width: 640px;
   margin: auto;
 }
+
+div {
+  padding: 1rem;
+  padding-top: 0;
+  padding-bottom: 2rem;
+  margin: 1rem;
+  background-color: lightgreen;
+  border: 0.3rem solid green;
+  color: green;
+  text-align: center;
+  font-size: 2rem;
+}
+div:first-child ~ div {
+  background-color: plum;
+  border: 0.3rem solid purple;
+  color: purple;
+}
+div:first-child + div {
+  background-color: lightblue;
+  border: 0.3rem solid blue;
+  color: blue;
+}
+div:last-child {
+  background-color: pink !important;
+  border: 0.3rem solid red !important;
+  color: red !important;
+}

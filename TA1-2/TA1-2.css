@@ -1,0 +1,107 @@
+.flex-contenedor {
+  display: flex;
+}
+.menu-principal {
+  border-bottom: 0.08rem solid grey;
+  padding-bottom: 1rem;
+}
+.menu-principal h3 {
+  color: #2c3e50;
+  font-family: Tahoma, sans-serif;
+}
+
+.seccion-lateral {
+  margin-right: 1.5rem;
+}
+
+.seccion-lateral li {
+  list-style: none;
+}
+
+.seccion-lateral ul {
+  padding-left: 0;
+}
+
+.idioma-seleccionado::before {
+  content: ">"
+}
+body {
+  display: block;
+  margin: 2.5rem;
+  background-image: url(assets/bg.jpg);
+}
+p {
+  text-align: justify;
+  font-family: Tahoma, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #2980b9;
+  font-family: Tahoma, sans-serif;
+}
+h1 {
+  color: #c0392b;
+  font-family: `Georgia,  Times, serif`;
+}
+h2{
+  color: #2c3e50;
+  border-bottom: 0.05rem solid #3498db;
+  font-family: Tahoma, sans-serif;
+}
+.imagen-lateral {
+  float: right;
+  margin: 2rem;
+  margin-right: 0;
+}
+.tabla-de-contenido {
+  border: 1px solid #7A7F6F;
+  display: inline-block;
+  padding: 9px;
+  padding-right: 18px;
+}
+
+/*Escritorio*/
+
+@media screen and (min-width: 641px) {
+  .switch-seccion-lateral {
+    display: none;
+  }
+  .etiqueta-switch-seccion-lateral {
+    display: none;
+  }
+}
+
+/*Movil con Menu*/
+
+@media screen and (max-width: 640px) {
+  .switch-seccion-lateral {
+  display: none;
+  }
+  .etiqueta-switch-seccion-lateral {
+    margin-top: 1rem;
+    float: right;
+  }
+  .etiqueta-switch-seccion-lateral::before {
+    content: "☰";
+  }
+  label {
+    cursor: pointer;
+  }
+  #switch-seccion-lateral ~ .menu{
+    display: none;
+    overflow: hidden;
+  }
+  #switch-seccion-lateral:checked ~ .menu{
+    display: block;
+  }
+  .imagen-lateral {
+    float: none;
+    margin: 0;
+  }
+  .imagen-lateral img {
+    width: 100%;
+  }
+  .flex-contenedor {
+    display: block;
+  }
+}
