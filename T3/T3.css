@@ -1,0 +1,217 @@
+.contenido-neto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+body{
+  margin: 0;
+}
+
+
+/*Css del contenido superior*/
+.cont-superior {
+  position: relative;
+  background-image: url(assets/bg.jpg);
+  padding-bottom: 16rem;
+}
+.menu {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  justify-content: space-between;
+}
+.menu li {
+  display: inline;
+  margin: 1rem;
+}
+div .links {
+  text-align: right;
+  display: inline-block;
+}
+.links a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+.cont-central {
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.cont-central a {
+  text-decoration: none;
+  color: white;
+}
+.cont-central h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+.cont-central h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+.cont-central button{
+  font-size: 1rem;
+  padding: 1.4rem;
+  margin-top: 1.8rem;
+}
+
+
+ /*Css de la seccion de Textos*/
+.texto-principal {
+  background-color: #dddddb;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-bottom: 4%;
+}
+h2 {
+  text-align: center;
+}
+.columnas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.features {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  padding-top: 5rem;
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+  padding-bottom: 4%;
+}
+.features h2 {
+  font-size: 2rem;
+}
+.columnas div {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  width: 30%;
+  text-align: justify;
+}
+
+
+
+/*Css de la Galeria*/
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.gallery h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.3rem;
+  margin: 3%;
+  width: 100%;
+}
+.gallery div {
+  width: 40%;
+  margin-bottom: 4%;
+}
+.gallery img {
+  width: 100%;
+}
+
+
+
+/*Css de la tablas de precios*/
+.tablas-de-precios {
+  background-color: #dddddb;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding-bottom: 3%;
+}
+.tablas-de-precios h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.3rem;
+  width: 100%
+}
+.tablas-de-precios div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.tablas-de-precios ul {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  padding: 0;
+}
+.tablas-de-precios h3 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 1.5rem;
+}
+.tablas-de-precios a {
+  text-decoration: none;
+  color: white;
+}
+button {
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem;
+  border: none;
+  background-color: #43a0d7;
+  color: white;
+}
+
+
+
+/*Css de taches y palimitas en la tabla de precios*/
+.tablas-de-precios li {
+  margin: 0;
+  padding: 0 1rem;
+  list-style: none;
+  background-image: url(assets/viñetapalomita.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 13px;
+}
+.package1 li:nth-last-child(-n+6) {
+  background-image: url(assets/viñetax.png);
+  background-size: 10px;
+}
+.package2 li:nth-last-child(-n+5) {
+  background-image: url(assets/viñetax.png);
+  background-size: 10px;
+}
+.package3 li:nth-last-child(-n+3) {
+  background-image: url(assets/viñetax.png);
+  background-size: 10px;
+}
+.package4 li:nth-last-child(-n+2) {
+  background-image: url(assets/viñetax.png);
+  background-size: 10px;
+}
+
+
+
+
+/*Pie de pagina*/
+foot {
+  padding: 2rem;
+  background-color: #2a3d4d;
+  color: white;
+  text-align: center;
+}
+
+/*Sitio MOvil*/
+
+@media screen and (max-width: 640px) {
+ .features, .columnas div {
+   width: 80%;
+ }
+ .gallery div {
+  width: 80%;
+ }
+ .tablas-de-precios div{
+   width: 50%;
+ }
+}
